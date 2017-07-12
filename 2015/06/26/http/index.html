@@ -87,15 +87,17 @@
 
 
 
-<meta name="description" content="Just Want More">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Canyr's Home">
-<meta property="og:url" content="http://canyr.com/index.html">
+<meta name="description" content="1xx消息这一类型的状态码，代表请求已被接受，需要继续处理。这类响应是临时响应，只包含状态行和某些可选的响应头信息，并以空行结束。由于HTTP/1.0协议中没有定义任何1xx状态码，所以除非在某些试验条件下，服务器禁止向此类客户端发送1xx响应。 这些状态码代表的响应都是信息性的，标示客户应该采取的其他行动。 100 Continue客户端应当继续发送请求。这个临时响应是用来通知客户端它的部分请求">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTTP状态码(记录)">
+<meta property="og:url" content="http://canyr.com/2015/06/26/http/index.html">
 <meta property="og:site_name" content="Canyr's Home">
-<meta property="og:description" content="Just Want More">
+<meta property="og:description" content="1xx消息这一类型的状态码，代表请求已被接受，需要继续处理。这类响应是临时响应，只包含状态行和某些可选的响应头信息，并以空行结束。由于HTTP/1.0协议中没有定义任何1xx状态码，所以除非在某些试验条件下，服务器禁止向此类客户端发送1xx响应。 这些状态码代表的响应都是信息性的，标示客户应该采取的其他行动。 100 Continue客户端应当继续发送请求。这个临时响应是用来通知客户端它的部分请求">
+<meta property="og:updated_time" content="2017-06-26T17:13:47.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Canyr's Home">
-<meta name="twitter:description" content="Just Want More">
+<meta name="twitter:title" content="HTTP状态码(记录)">
+<meta name="twitter:description" content="1xx消息这一类型的状态码，代表请求已被接受，需要继续处理。这类响应是临时响应，只包含状态行和某些可选的响应头信息，并以空行结束。由于HTTP/1.0协议中没有定义任何1xx状态码，所以除非在某些试验条件下，服务器禁止向此类客户端发送1xx响应。 这些状态码代表的响应都是信息性的，标示客户应该采取的其他行动。 100 Continue客户端应当继续发送请求。这个临时响应是用来通知客户端它的部分请求">
 
 
 
@@ -123,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="http://canyr.com/"/>
+  <link rel="canonical" href="http://canyr.com/2015/06/26/http/"/>
 
 
 
 
 
-  <title> Canyr's Home </title>
+  <title> HTTP状态码(记录) | Canyr's Home </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -163,9 +165,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -286,173 +286,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://canyr.com/2017/03/12/React-Native-WebView/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Canyr">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/usericon.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Canyr's Home">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/12/React-Native-WebView/" itemprop="url">
-                  React Native WebView 交互
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-12T23:10:00+08:00">
-                2017-03-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/03/12/React-Native-WebView/" class="leancloud_visitors" data-flag-title="React Native WebView 交互">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数 </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><strong>在0.37版本中，自带的WebView组件拥有了和Web通信的功能</strong></p>
-<h1 id="1-主要属性"><a href="#1-主要属性" class="headerlink" title="1.主要属性"></a>1.主要属性</h1><ul>
-<li>source {uri: string, method: string, headers: object, body: string}, {html: string, baseUrl: string}, number ：在 WebView 中载入一段静态的 html 代码或是一个 url（还可以附带一些 header 选项）</li>
-<li>onMessage ：接受消息 （<strong>重点</strong>）</li>
-<li>automaticallyAdjustContentInsets bool：设置是否自动调整内容。</li>
-<li>contentInset {top:number,left:number,bottom:number,right:number}：设置内容所占的尺寸大小。</li>
-<li>injectedJavaScript string：当网页加载之前注入一段 js 代码。</li>
-<li>startInLoadingState bool：强制WebView在第一次加载时先显示loading视图。默认为true</li>
-<li>scalesPageToFit bool :设置是否要把网页缩放到适应视图的大小，以及是否允许用户改变缩放比例。</li>
-<li>bounces（仅iOS）：回弹特性。默认为 true。如果设置为 false，则内容拉到底部或者头部都不回弹。</li>
-<li>scrollEnabled（仅iOS）：用于设置是否开启页面滚动。</li>
-<li>domStorageEnabled（仅Android）：用于控制是否开启 DOM Storage（存储）。</li>
-<li>javaScriptEnabled (仅限Android平台。iOS平台JavaScript是默认开启的。JavaScript，在 iOS 中的 WebView 是默认开启的。)</li>
-</ul>
-<h1 id="2-主要方法"><a href="#2-主要方法" class="headerlink" title="2.主要方法"></a>2.主要方法</h1><ul>
-<li>postMessage ：发送消息</li>
-<li>injectJavaScript：在网页加载完成之后，还可以主动调用此方法（以ref形式调用）继续给WebView注入JS代码。注入后会立即执行。</li>
-<li>onNavigationStateChange：当导航状态发生变化的时候调用。</li>
-<li>onLoadStart：当网页开始加载的时候调用。</li>
-<li>onError：当网页加载失败的时候调用。</li>
-<li>onLoad：当网页加载结束的时候调用。</li>
-<li>onLoadEnd：当网页加载结束调用，不管是成功还是失败。</li>
-<li>renderLoading：WebView组件正在渲染页面时触发的函数，只有 startInLoadingState 为 true 时该函数才起作用。</li>
-<li>renderError：监听渲染页面出错的函数。</li>
-<li>onShouldStartLoadWithRequest（仅iOS）：该方法允许拦截 WebView 加载的 URL 地址，进行自定义处理。该方法通过返回 true 或者 falase 来决定是否继续加载该拦截到请求。</li>
-</ul>
-<h1 id="3-代码演示"><a href="#3-代码演示" class="headerlink" title="3.代码演示"></a>3.代码演示</h1><ol>
-<li>两端都是通过postMessage发送消息</li>
-<li>webView侧收消息通过：<br><code>window.document.addEventListener(&#39;message&#39;, , function(e){eval(e.data);})</code> </li>
-<li>RN侧收消息通过：<br><code>onMessage={e =&gt; this._listener(e.nativeEvent.data)}</code></li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line">constructor(props) &#123;</div><div class="line">	super(props);</div><div class="line">	this.state = &#123;</div><div class="line">	webViewHeight:0,</div><div class="line">	&#125;;</div><div class="line">&#125;</div><div class="line">	</div><div class="line">_renderWebView()&#123;</div><div class="line">	return(</div><div class="line">		&lt;WebView</div><div class="line">			style=&#123;&#123;flex:1,backgroundColor:&apos;gray&apos;,height:this.state.webViewHeight&#125;&#125;</div><div class="line">			source=&#123;&#123;uri: &apos;http://www.baidu.com&apos;&#125;&#125;  </div><div class="line">			javaScriptEnabled=&#123;true&#125;</div><div class="line">			scalesPageToFit=&#123;false&#125;</div><div class="line">			onLoadEnd=&#123;()=&gt; this._webViewLoadEnd()&#125;</div><div class="line">			onMessage=&#123;e =&gt; this._listener(e.nativeEvent.data)&#125;</div><div class="line">			ref=&#123;ref =&gt; this.webView = ref&#125;</div><div class="line">			</div><div class="line">			//webView侧设置接受消息 eval 执行收到的消息</div><div class="line">			injectedJavaScript=&#123;&apos;window.document.addEventListener(&quot;message&quot;, function(e) &#123;eval(e.data);&#125;);&apos;&#125;</div><div class="line">			scrollEnabled=&#123;false&#125;</div><div class="line">		/&gt;</div><div class="line">	);</div><div class="line">&#125;</div><div class="line">	</div><div class="line">_webViewLoadEnd()&#123;</div><div class="line">	const script = &apos;console.log(document.body.scrollHeight)&apos;;</div><div class="line">	// 插入一段js到webView</div><div class="line">	// this.webView.injectJavaScript(&apos;window.postMessage(document.body.scrollHeight);&apos;);</div><div class="line">	</div><div class="line">	// RN侧发送消息给webView</div><div class="line">	// webView侧执行 window.postMessage ，给RN侧发送消息</div><div class="line">	this.webView.postMessage(&apos;window.postMessage(document.body.scrollHeight);&apos;);</div><div class="line">&#125;</div><div class="line">	</div><div class="line">// 收到webView发给RN侧的消息</div><div class="line">_listener(message)&#123;</div><div class="line">	const payload = JSON.parse(message);</div><div class="line">	</div><div class="line">	this.setState(&#123;</div><div class="line">		webViewHeight:parseInt(payload),</div><div class="line">	&#125;);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>大多数情况下，需求不可能只是给网页发一段字符串这么简单，我们需要定义传输协议，扩展message的的功能来处理复杂的请求。<br>可参考：<br>简书： <a href="http://www.jianshu.com/p/b37ee000379e" target="_blank" rel="external">React Native 与 WebView 的通信</a><br>github：<a href="https://github.com/pinqy520/react-native-webview-invoke/blob/master/src/messager/index.js" target="_blank" rel="external">react-native-webview-invoke</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
 
   
 
@@ -482,10 +318,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2015/06/26/http/" itemprop="url">
-                  HTTP状态码(记录)
-                </a>
+                HTTP状态码(记录)
               
             
           </h1>
@@ -513,6 +346,16 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2015/06/26/http/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -547,9 +390,7 @@
       
 
       
-        
-          
-            <h2 id="1xx消息"><a href="#1xx消息" class="headerlink" title="1xx消息"></a>1xx消息</h2><p>这一类型的状态码，代表请求已被接受，需要继续处理。这类响应是临时响应，只包含状态行和某些可选的响应头信息，并以空行结束。由于HTTP/1.0协议中没有定义任何1xx状态码，所以除非在某些试验条件下，服务器禁止向此类客户端发送1xx响应。 这些状态码代表的响应都是信息性的，标示客户应该采取的其他行动。</p>
+        <h2 id="1xx消息"><a href="#1xx消息" class="headerlink" title="1xx消息"></a>1xx消息</h2><p>这一类型的状态码，代表请求已被接受，需要继续处理。这类响应是临时响应，只包含状态行和某些可选的响应头信息，并以空行结束。由于HTTP/1.0协议中没有定义任何1xx状态码，所以除非在某些试验条件下，服务器禁止向此类客户端发送1xx响应。 这些状态码代表的响应都是信息性的，标示客户应该采取的其他行动。</p>
 <h3 id="100-Continue"><a href="#100-Continue" class="headerlink" title="100 Continue"></a>100 Continue</h3><p>客户端应当继续发送请求。这个临时响应是用来通知客户端它的部分请求已经被服务器接收，且仍未被拒绝。客户端应当继续发送请求的剩余部分，或者如果请求已经完成，忽略这个响应。服务器必须在请求完成后向客户端发送一个最终响应。</p>
 <h3 id="101-Switching-Protocols"><a href="#101-Switching-Protocols" class="headerlink" title="101 Switching Protocols"></a>101 Switching Protocols</h3><p>服务器已经理解了客户端的请求，并将通过Upgrade消息头通知客户端采用不同的协议来完成这个请求。在发送完这个响应最后的空行后，服务器将会切换到在Upgrade消息头中定义的那些协议。: 只有在切换新的协议更有好处的时候才应该采取类似措施。例如，切换到新的HTTP版本比旧版本更有优势，或者切换到一个实时且同步的协议以传送利用此类特性的资源。</p>
 <h3 id="102-Processing"><a href="#102-Processing" class="headerlink" title="102 Processing"></a>102 Processing</h3><p>由WebDAV（RFC 2518）扩展的状态码，代表处理将被继续执行。</p>
@@ -657,20 +498,27 @@
 </code></pre><h3 id="509-Bandwidth-Limit-Exceeded"><a href="#509-Bandwidth-Limit-Exceeded" class="headerlink" title="509 Bandwidth Limit Exceeded"></a>509 Bandwidth Limit Exceeded</h3><pre><code>服务器达到带宽限制。这不是一个官方的状态码，但是仍被广泛使用。
 </code></pre><h3 id="510-Not-Extended"><a href="#510-Not-Extended" class="headerlink" title="510 Not Extended"></a>510 Not Extended</h3><pre><code>获取资源所需要的策略并没有没满足。
 </code></pre>
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
@@ -678,21 +526,38 @@
       
 
       
-
+        
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/12/React-Native-WebView/" rel="next" title="React Native WebView 交互">
+                <i class="fa fa-chevron-left"></i> React Native WebView 交互
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -700,6 +565,12 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
 
         </div>
         
@@ -719,8 +590,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/usericon.png"
@@ -798,6 +678,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1xx消息"><span class="nav-text">1xx消息</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#100-Continue"><span class="nav-text">100 Continue</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#101-Switching-Protocols"><span class="nav-text">101 Switching Protocols</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#102-Processing"><span class="nav-text">102 Processing</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2xx成功"><span class="nav-text">2xx成功</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#200-OK"><span class="nav-text">200 OK</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#201-Created"><span class="nav-text">201 Created</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#202-Accepted"><span class="nav-text">202 Accepted</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#203-Non-Authoritative-Information"><span class="nav-text">203 Non-Authoritative Information</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#204-No-Content"><span class="nav-text">204 No Content</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#205-Reset-Content"><span class="nav-text">205 Reset Content</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#206-Partial-Content"><span class="nav-text">206 Partial Content</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#207-Multi-Status"><span class="nav-text">207 Multi-Status</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3xx重定向"><span class="nav-text">3xx重定向</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#300-Multiple-Choices"><span class="nav-text">300 Multiple Choices</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#301-Moved-Permanently"><span class="nav-text">301 Moved Permanently</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#302-Found"><span class="nav-text">302 Found</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#303-See-Other"><span class="nav-text">303 See Other</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#304-Not-Modified"><span class="nav-text">304 Not Modified</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#305-Use-Proxy"><span class="nav-text">305 Use Proxy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#306-Switch-Proxy"><span class="nav-text">306 Switch Proxy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#307-Temporary-Redirect"><span class="nav-text">307 Temporary Redirect</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4xx客户端错误"><span class="nav-text">4xx客户端错误</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#400-Bad-Request"><span class="nav-text">400 Bad Request</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#401-Unauthorized"><span class="nav-text">401 Unauthorized</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#402-Payment-Required"><span class="nav-text">402 Payment Required</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#403-Forbidden"><span class="nav-text">403 Forbidden</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#404-Not-Found"><span class="nav-text">404 Not Found</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#405-Method-Not-Allowed"><span class="nav-text">405 Method Not Allowed</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#406-Not-Acceptable"><span class="nav-text">406 Not Acceptable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#407-Proxy-Authentication-Required"><span class="nav-text">407 Proxy Authentication Required</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#408-Request-Timeout"><span class="nav-text">408 Request Timeout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#409-Conflict"><span class="nav-text">409 Conflict</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#410-Gone"><span class="nav-text">410 Gone</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#411-Length-Required"><span class="nav-text">411 Length Required</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#412-Precondition-Failed"><span class="nav-text">412 Precondition Failed</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#413-Request-Entity-Too-Large"><span class="nav-text">413 Request Entity Too Large</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#414-Request-URI-Too-Long"><span class="nav-text">414 Request-URI Too Long</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#415-Unsupported-Media-Type"><span class="nav-text">415 Unsupported Media Type</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#416-Requested-Range-Not-Satisfiable"><span class="nav-text">416 Requested Range Not Satisfiable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#417-Expectation-Failed"><span class="nav-text">417 Expectation Failed</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#418-I’m-a-teapot"><span class="nav-text">418 I’m a teapot</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#421-There-are-too-many-connections-from-your-internet-address"><span class="nav-text">421 There are too many connections from your internet address</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#422-Unprocessable-Entity"><span class="nav-text">422 Unprocessable Entity</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#423-Locked"><span class="nav-text">423 Locked</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#424-Failed-Dependency"><span class="nav-text">424 Failed Dependency</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#425-Unordered-Collection"><span class="nav-text">425 Unordered Collection</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#426-Upgrade-Required"><span class="nav-text">426 Upgrade Required</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#449-Retry-With"><span class="nav-text">449 Retry With</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5xx服务器错误"><span class="nav-text">5xx服务器错误</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#500-Internal-Server-Error"><span class="nav-text">500 Internal Server Error</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#501-Not-Implemented"><span class="nav-text">501 Not Implemented</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#502-Bad-Gateway"><span class="nav-text">502 Bad Gateway</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#503-Service-Unavailable"><span class="nav-text">503 Service Unavailable</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#504-Gateway-Timeout"><span class="nav-text">504 Gateway Timeout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#505-HTTP-Version-Not-Supported"><span class="nav-text">505 HTTP Version Not Supported</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#506-Variant-Also-Negotiates"><span class="nav-text">506 Variant Also Negotiates</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#507-Insufficient-Storage"><span class="nav-text">507 Insufficient Storage</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#509-Bandwidth-Limit-Exceeded"><span class="nav-text">509 Bandwidth Limit Exceeded</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#510-Not-Extended"><span class="nav-text">510 Not Extended</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -912,6 +808,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
